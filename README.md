@@ -6,7 +6,7 @@ Using fingerprint makes it possible to group similar queries together.
 ## Usage
 
 ```ruby
-fingerprint = SqlFingerprint.calculate('SELECT * FROM users=1')
+fingerprint = SqlFingerprint.calculate('SELECT * FROM users WHERE id=1')
 ```
 
 ## Installation
