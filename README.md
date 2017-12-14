@@ -10,8 +10,10 @@ Query rewriting is based on [Percona Toolkit implementation](https://github.com/
 ## Usage
 
 ```ruby
-fingerprint = SqlFingerprint.calculate('SELECT * FROM users WHERE id=1')
+fingerprint = SqlFingerprint.calculate('SELECT * FROM users WHERE id=1') 
 ```
+
+Result: `dd1d44f7cffa757aad5152a27b811d6735ef6661`
 
 ## Installation
 
