@@ -5,6 +5,8 @@
 Abstracts SQL query and calculates fingerprint. 
 Using fingerprint makes it possible to group similar queries together.
 
+Query rewriting is based on [Percona Toolkit implementation](https://github.com/percona/percona-toolkit/blob/b118e39d1057058b59f0a606946f189f640a693e/lib/QueryRewriter.pm#L147).
+
 ## Usage
 
 ```ruby
