@@ -1,5 +1,7 @@
 # SqlFingerprint
 
+[![Build Status](https://travis-ci.org/vinted/sql_fingerprint.svg?branch=master)](https://travis-ci.org/vinted/sql_fingerprint)
+
 Abstracts SQL query and calculates fingerprint. 
 Using fingerprint makes it possible to group similar queries together.
 
