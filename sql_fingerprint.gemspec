@@ -5,8 +5,8 @@ require 'sql_fingerprint/version'
 Gem::Specification.new do |spec|
   spec.name = 'sql_fingerprint'
   spec.version = SqlFingerprint::VERSION
-  spec.authors = ['Laurynas Butkus', 'Tomas Didžiokas']
-  spec.email = ['laurynas.butkus@gmail.com', 'tomas.did@gmail.com']
+  spec.authors = ['Vinted']
+  spec.email = ['backend@vinted.com']
   spec.summary = 'Abstracts SQL query and calculates fingerprint'
   spec.homepage = 'https://github.com/vinted/sql_fingerprint'
   spec.license = 'MIT'
@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
 
   spec.require_paths = ['lib']
 
-  spec.add_development_dependency 'bundler', '~> 1.16'
+  spec.add_development_dependency 'bundler'
   spec.add_development_dependency 'rake', '~> 12.3'
   spec.add_development_dependency 'rspec', '~> 3.0'
 end
