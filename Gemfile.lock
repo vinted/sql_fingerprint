@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    sql_fingerprint (0.1.2)
+    sql_fingerprint (0.2.0)
 
 GEM
   remote: https://rubygems.org/
@@ -32,4 +32,4 @@ DEPENDENCIES
   sql_fingerprint!
 
 BUNDLED WITH
-   2.2.22
+   2.2.32
